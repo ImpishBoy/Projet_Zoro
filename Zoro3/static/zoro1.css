@@ -1,0 +1,152 @@
+*{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flex-col
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex
+{
+    display: flex;
+    align-items: center;
+}
+
+.space-center
+{
+    justify-content: center;
+}
+
+.space-bet
+{
+    justify-content: space-between;
+}
+
+.space-bet
+{
+    justify-content: space-around;
+}
+
+.sectionG
+{
+    width: 100%;
+    height:600px;
+
+    
+    
+}
+.section1
+{
+    width: 100%;
+    height: 500px;
+    background-color: gainsboro;
+}
+
+.sec1
+{
+   height: 10%;
+   width: 100%;
+   
+   color: white;
+   font-size: 25px;
+   border-bottom: black 2px solid;
+   Background-color: rgb(6, 183, 253);
+}
+
+.identif
+{
+    width: 100%;
+    height: 90%;
+    
+}
+
+.bloc
+{
+    width: 30%;
+    height: 60%;
+   
+    border-radius: 50px;
+    border-bottom: black 2px solid;
+   Background-color: rgb(6, 183, 253);
+}
+.form
+{
+    width: 100%;
+    height: 100%;
+   
+    border-radius: 50px;
+}
+
+.bloc1
+{
+    width: 50%;
+    height: 20%;
+   
+}
+.bloc2
+{
+    width: 50%;
+    height: 20%;
+    
+}
+.bloc3
+{
+    width: 50%;
+    height: 20%;
+   
+}
+.bloc4
+{
+    width: 50%;
+    height: 20%;
+    
+}
+.bloc5
+{
+    width: 50%;
+    height: 20%;
+   
+}
+
+.b1
+{
+    width: 90%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.BOUT
+{
+    width: 70%;
+    height: 50%;
+    background-color: gainsboro;
+    border: black 2px solid;
+    border-radius: 6px;
+}
+.BOUT:hover
+{
+    background-color: azure;
+}
+
+.lien
+{
+    text-decoration: none;
+    color: white;
+}
+.lien:hover
+{
+    color: brown;
+}
+
+a
+{
+    text-decoration: none;
+    
+}

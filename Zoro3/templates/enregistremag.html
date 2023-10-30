@@ -1,0 +1,35 @@
+{% extends './base.html'%}
+{% block centre %}
+<div class="mil flex-col space-center">
+
+                    <div class="label">
+                        <h3>Ajouter un nouveau Magasin</h3> 
+                     </div>
+                     <form action="/Addmagasin"  class="formulaire flex-col space-bet">
+                         <div class="F1 flex-row space-bet">
+                             <label for="" class="L1 flex space-center">Nom : </label>
+                             <input type="text" class="I1">
+                         </div>
+                         <div class="F1 flex-row space-bet">
+                             <label for="" class="L1 flex space-center">Addresse : </label>
+                             <input type="text" class="I1">
+                         </div>
+                         <div class="F1 flex-row space-bet">
+                             <label for="" class="L1 flex space-center">telephone : </label>
+                             <input type="text" class="I1">
+                         </div>
+                         <div class="F1 flex-row space-bet">
+                             <label for="" class="L1 flex space-center">E-mail : </label>
+                             <input type="text" class="I1">
+                         </div>
+                         <div class="F2 flex space-center">
+                            <div class="F21 flex-row space-bet">
+                            <input type="submit" class="r" class="L1">
+                            <input type="reset" class="r2">
+                            </div>
+                            
+                        </div>
+                     </form>
+
+                </div>
+{%endblock%}

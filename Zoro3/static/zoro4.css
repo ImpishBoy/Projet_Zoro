@@ -1,0 +1,316 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flex-col
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex
+{
+    display: flex;
+    align-items: center;
+}
+
+.space-center
+{
+    justify-content: center;
+}
+
+.space-bet
+{
+    justify-content: space-between;
+}
+
+.space-bet
+{
+    justify-content: space-around;
+}
+
+.sectionG
+{
+    width: 100%;
+    height:600px;
+    
+    
+}
+.section1
+{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(6, 183, 253);
+}
+
+.sec1
+{
+   height: 10%;
+   width: 100%;
+   
+   color: white;
+   font-size: 25px;
+   border-bottom: black 2px solid;
+}
+.sec2
+{
+    height: 90%;
+    width: 100%;
+   
+}
+
+.sec2-1
+{
+    height: 100%;
+    width: 15%;
+    
+}
+.sec2-2
+{
+    height: 100%;
+    width: 85%;
+   
+    background-color: gainsboro;
+}
+
+.gauche1
+{
+    height: 55%;
+    width: 100%;
+   
+}
+
+.gauche2
+{
+    height: 20%;
+    width: 100%;
+    
+}
+.g1
+{
+    width: 99%;
+    height: 15%;
+    background-color: aliceblue;
+    border: aliceblue 2px solid;
+    border-radius: 5%;
+}
+.g1:hover
+{
+    background-color: gray;
+    border: gray 2px solid;
+}
+.gg
+{
+    width: 99%;
+    height: 15%;
+    background-color: gray;
+    border: gray 2px solid;
+    border-radius: 5%;
+}
+
+.sec2-2-h
+{
+    width: 80%;
+    height: 20%;
+    
+    margin-left: 90px;
+}
+
+.sec2-2-b
+{
+    width: 80%;
+    height: 80%;
+   
+    margin-left: 90px;
+}
+.sms
+{
+    width: 70%;
+    height: 40%;
+    
+    font-size: 15px;
+    margin-left: 30px;
+    border: 1px green solid;
+}
+.sms h3
+{
+    
+    right: 0;
+    color: green;
+}
+
+
+.btn-s
+{
+    width: 25%;
+    height: 80%;
+   
+}
+
+.btn-s1
+{
+    width: 70%;
+    height: 50%;
+    background-color: green;
+    border: green 2px solid;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.btn-s1:hover
+{
+    width: 80%;
+    height: 60%;
+}
+
+.tableau
+{
+    width: 95%;
+    height: 90%;
+    border: white 2px solid;
+}
+.etete
+{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(6, 183, 253);
+}
+.tete
+{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+}
+.tete td
+{
+  width: 20%;
+  height: 100%;
+  border: white 1px solid;
+  
+}
+.tcorp
+{
+    width: 100%;
+    height: 80%;
+    
+   
+}
+
+.tcorp tr
+{
+    width: 100%;
+    height: 12%;
+    border: white 1px solid;;
+   
+}
+
+.tcorp tr td
+{
+    width: 100%;
+    height: 100%;
+    border: white 1px solid;;
+   
+}
+
+.vert
+{
+    color: green;
+}
+
+.fond1
+{
+    background-color: skyblue;
+}
+
+.f2
+{
+    background-color: gainsboro;
+}
+
+.label
+{
+    width: 90%;
+    height: 10%;
+    margin-left: 75px;
+    
+}
+
+.formulaire
+{
+    width: 90%;
+    height: 60%;
+   
+}
+
+.F1
+{
+    width: 90%;
+    height: 15%;
+    
+}
+.F2
+{
+    width: 60%;
+    height: 15%;
+    
+}
+.F21
+{
+    width: 60%;
+    height: 100%;
+}
+
+.L1
+{
+    width: 30%;
+    height: 60%;
+    border-radius: 5px;
+    border: gainsboro 2px solid;
+}
+.I1
+{
+    width: 70%;
+    height: 60%;
+    border-radius: 5px;
+    border: gainsboro 2px solid;
+}
+.mil
+{
+    width: 60%;
+    height: 90%;
+    margin-right: 200px;
+}
+
+.r
+{
+    background-color: green;
+    border: green 1px solid;
+    width: 45%;
+    height: 60%;
+    border-radius: 5px;
+    font-size: 15px;
+    
+
+}
+.r2
+{
+    background-color: brown;
+    border:brown 1px solid;
+    width: 45%;
+    height: 60%;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+a
+{
+    text-decoration: none;
+    
+}

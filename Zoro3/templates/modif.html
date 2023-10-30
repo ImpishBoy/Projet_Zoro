@@ -1,0 +1,40 @@
+{% extends './base.html'%}
+
+{%block centre%}
+
+    
+<div class="mil flex-col space-center">
+
+    <div class="label">
+        <h3>Modifier un Magasin</h3> 
+     </div>
+     <form action="/modifier"  class="formulaire flex-col space-bet">
+         <div class="F1 flex-row space-bet">
+             <label for="" class="L1 flex space-center">Nom : </label>
+             <input type="text" class="I1" placeholder="Magasin 5">
+         </div>
+         <div class="F1 flex-row space-bet">
+             <label for="" class="L1 flex space-center">Addresse : </label>
+             <input type="text" class="I1" placeholder="Adrrese 5">
+         </div>
+         <div class="F1 flex-row space-bet">
+             <label for="" class="L1 flex space-center" >telephone : </label>
+             <input type="text" class="I1 flex space-center"  placeholder="telephone M">
+         </div>
+         <div class="F1 flex-row space-bet">
+             <label for="" class="L1 flex space-center">E-mail : </label>
+             <input type="text" class="I1" placeholder="Email 5">
+         </div>
+         <div class="F2 flex space-center">
+            <div class="F21 flex-row space-bet">
+            <input type="submit" class="r" class="L1">
+            <input type="reset" class="r2">
+            </div>
+            
+        </div>
+     </form>
+
+</div>
+    
+
+{%endblock%}

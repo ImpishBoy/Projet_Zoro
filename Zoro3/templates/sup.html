@@ -1,0 +1,17 @@
+{% extends './base.html'%}
+
+{%block centre %}
+<div class="di flex">
+    <h3>Suppression de magasin</h3>
+     </div>
+     <div class="di2 flex-col space-around">
+       <div class="danger flex space-center">
+         vous etes sur le point de Supprimer le magasin 2.
+         etes vous sur de vouloir continuer?
+       </div>
+       <div class="val flex-row space-center">
+       <button class="retour"> <a href="/listemagasin" class="">retour</a> </button>
+       <button class="confirmer"><a href="/supprimer">confimer</a> </button>
+       </div>
+     </div>
+{%endblock%}
