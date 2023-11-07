@@ -4,23 +4,23 @@
 
                     <div class="label">
                         <h3>Ajouter un nouveau Magasin</h3> 
-                     </div>
-                     <form action="/Addmagasin"  class="formulaire flex-col space-bet">
+                    </div>
+                    <form class="formulaire flex-col space-bet" method="POST">
                          <div class="F1 flex-row space-bet">
                              <label for="" class="L1 flex space-center">Nom : </label>
-                             <input type="text" class="I1">
+                             <input type="text" class="I1" name="Nom" value="{{data[1]}}" required>
                          </div>
                          <div class="F1 flex-row space-bet">
-                             <label for="" class="L1 flex space-center">Addresse : </label>
-                             <input type="text" class="I1">
+                             <label for="" class="L1 flex space-center">Adresse : </label>
+                             <input type="text" class="I1" name="Adresse" value="{{data[2]}}" required> 
                          </div>
                          <div class="F1 flex-row space-bet">
                              <label for="" class="L1 flex space-center">telephone : </label>
-                             <input type="text" class="I1">
+                             <input type="text" class="I1" name="Téléphone" value="{{data[3]}}" required>
                          </div>
                          <div class="F1 flex-row space-bet">
                              <label for="" class="L1 flex space-center">E-mail : </label>
-                             <input type="text" class="I1">
+                             <input type="text" class="I1" name="Mail" value="{{data[4]}}" required>
                          </div>
                          <div class="F2 flex space-center">
                             <div class="F21 flex-row space-bet">
@@ -29,7 +29,7 @@
                             </div>
                             
                         </div>
-                     </form>
+                    </form>
 
                 </div>
 {%endblock%}

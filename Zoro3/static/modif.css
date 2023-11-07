@@ -316,3 +316,116 @@ a
     text-decoration: none;
     
 }
+
+
+
+.minitab h3{
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    height: 85%;
+    text-align: center;
+    border-color: white;
+}
+
+.id{
+    width: 10%;
+}
+.un{
+    background-color: rgb(99, 173, 252);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nouveau{
+    color: rgb(3, 247, 44);
+    font-weight: bold;
+}
+
+.di{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+/* .input{
+    width: 60%;
+} */
+
+.btg{
+    background-color: red;
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 15px;
+}
+.btd{
+    background-color: green;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.gris{
+    background-color: gray;
+}
+
+.modifier{
+    background-color: #fff000;
+    color: white;
+}
+
+.Supprimer{
+    background-color: red;
+    color: black;
+}
+
+.tabsup{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+
+.messagesupprimer{
+    width: 100%;
+    height: 45%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.p1{
+    margin-top: 30px;
+    /* padding-bottom: 5px; */
+}
+
+.messageconfirm{
+    width: 65%;
+    height: 65%;
+    border: 2px solid black;
+    border-radius: 40px;
+    text-align: center;
+    background-color: rgb(225, 160, 39);
+}
+
+.succes{
+    border: 2px solid black;
+    background-color: rgb(72, 200, 170);
+    width: 45%;
+    text-align: center;
+    border-radius: 45px;
+}
